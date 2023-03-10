@@ -1,12 +1,14 @@
 .navbar-brand {
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
 }
 .offcanvas-header {
   text-transform: uppercase;
+
+  font-family: 'Roboto', sans-serif;
 }
 
-
-
-.offcanvas-body{
+.offcanvas-body {
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
 }
