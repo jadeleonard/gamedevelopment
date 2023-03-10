@@ -1,89 +1,12 @@
-h1 {
-  text-transform: uppercase;
-  font-family: 'Rubik Iso', cursive;
-}
-
-nav {
-  margin: 0;
-  padding: 0;
+.navbar-brand {
   text-transform: uppercase;
 }
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  color: black;
-  text-decoration: none;
-  list-style: none;
-  float: ;
-}
-nav ul li a {
-  display: flex;
-  justify-content: space-between;
-  margin: 5px;
-  font-family: sans-serif;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-  font-family: 'Tilt Prism', cursive;
-  font-weight: bold;
-}
-
-button {
-  border-radius: 10px;
-  border-style: none;
-  background-color: cyan;
-  color: white;
-  font-family: sans-serif;
-  font-weight: bold;
-}
-button:hover {
-  color: red;
-  transform: translateY(-5px);
-  transform: matrix3d();
-}
-
-nav ul li a:hover {
-  opacity: ;
-  transform: translateY(-5px);
-}
-
-p2 {
-  font-family: sans-serif;
-  text-orientation: sideways;
-}
-h3 {
-  font-weight: bold;
-}
-
-chartable li a {
-  border: 1px solid black;
-}
-
-.warrior {
-  border: 1px solid black;
-  height: 300px;
-  width: 300px;
-}
-.magician {
-  border: 1px solid black;
-  height: 300px;
-  width: 300px;
-}
-.healer {
-  border: 1px solid black;
-  height: 300px;
-  width: 300px;
-}
-.arcer {
-  border: 1px solid black;
-  height: 300px;
-  width: 300px;
-}
-h3 {
+.offcanvas-header {
   text-transform: uppercase;
 }
-div {
-  margin: 0px;
-  padding: 0;
-  font-family: sans-serif;
+
+
+
+.offcanvas-body{
+  text-transform: uppercase;
 }
