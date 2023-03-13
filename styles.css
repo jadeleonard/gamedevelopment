@@ -1,15 +1,113 @@
-.navbar-brand {
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+div {
+  color: black;
+  background-color: white;
 }
-.offcanvas-header {
+div ul {
+  justify-content: space-between;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+div ul li {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
   text-transform: uppercase;
+  float: right;
+}
+div ul li a {
+  text-decoration: none;
+  list-style: none;
+  float: left;
+  display: flex;
+  margin: 5px;
+  color: black;
+  transition: opacity 1s;
+}
+.h3 {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: black;
+}
+.h6 {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+.card {
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  padding: ;
+  flex-direction: row;
+  float: left;
+  margin-bottom: 100px;
+  transition: opacity 0.5s;
+  margin: 20pxpx;
+  padding: 2px;
+}
 
-  font-family: 'Roboto', sans-serif;
+h2 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+p {
+  text-transform: uppercase;
+  font-family: sans-serif;
 }
 
-.offcanvas-body {
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
+.info {
+  margin-top: 10px;
+  font-family: sans-serif;
+  float: none;
 }
-asdasdasd
+
+.inform {
+  margin-top: 10px;
+  float: none;
+}
+
+.card2 {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 20pxpx;
+  float: right;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+div ul li a:hover {
+  opacity: 0.5;
+  transform: translateY(-5px);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card:hover {
+  opacity: 0.5;
+  transform: translateY(-5px);
+  background-blend-mode: multiply;
+}
+
+.cardcontent {
+  width: 300px;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.description {
+  text-transform: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
+  background: none;
+  background-color: none;
+  border: none;
+}
